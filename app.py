@@ -6,9 +6,6 @@ from datetime import datetime
 
 app = Flask(__name__)
 
-# tónleikar
-with urllib.request.urlopen("http://apis.is/concerts") as url:
-    gig = json.loads(url.read().decode())
 
 
 def format_time2(gig):

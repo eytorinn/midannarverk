@@ -15,7 +15,7 @@
             <ul>
                 <li>Breiddargráða: {{ item.geo.lat }}</li>
                 <li>Lengdargráða: {{ item.geo.lon }}</li>
-                <li><a href="https://www.google.com/maps/@{{ item.geo.lat }},{{ item.geo.lon }}" </li
+                <li><a href="https://www.google.com/maps/@%7B%7B item.geo.lat }},{{ item.geo.lon }}" </li
             </ul>
         </div>
         {% endif %}
